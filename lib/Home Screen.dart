@@ -38,11 +38,6 @@ class _HomePageState extends State<HomePage> {
       for(var e in decodeResponse['data']){
         products.add(Product.toJson(e));
       }
-
-
-
-
-
       setState(() {});
     }
 
